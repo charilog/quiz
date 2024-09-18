@@ -13,7 +13,7 @@ import java.util.List;
 public class DataBase {
 
     public static Connection conn = null;
-    String host = "jdbc:mysql://195.130.73.229:3306/quiz?useSSL=false&useUnicode=yes&characterEncoding=UTF-8", dbuser = "xxx", dbpass = "xxx";
+    String host = "jdbc:mysql://xxxxx:xxxx/quiz?useSSL=false&useUnicode=yes&characterEncoding=UTF-8", dbuser = "xxx", dbpass = "xxx";
     private String name;
     private String lastname;
     private String email;
