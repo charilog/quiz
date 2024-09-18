@@ -13,13 +13,7 @@ import java.util.List;
 public class DataBase {
 
     public static Connection conn = null;
-    //String host = "jdbc:mysql://83.212.170.184:3306/quiz?useUnicode=yes&characterEncoding=UTF-8", dbuser = "root", dbpass = "P@n@g1wt1s";
-    //String host = "jdbc:mysql://195.130.72.178:3306/quiz?useUnicode=yes&characterEncoding=UTF-8", dbuser = "root", dbpass = "@Nji90okm"; //&autoReconnect=true&failOverReadOnly=false&maxReconnects=10
-    //String host = "jdbc:mysql://localhost:3306/quiz?useUnicode=yes&characterEncoding=UTF-8", dbuser = "root", dbpass = "";
-    //String host = "jdbc:mysql://195.130.73.229:3306/quiz?useUnicode=yes&characterEncoding=UTF-8", dbuser = "root", dbpass = "master";
-    //String host = "jdbc:mysql://195.130.73.229:3306/quiz?enabledTLSProtocols=TLSv1.2", dbuser = "root", dbpass = "master";
-    //String host = "jdbc:mysql://195.130.73.229:3306/quiz?useUnicode=yes&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true", dbuser = "root", dbpass = "master";
-    String host = "jdbc:mysql://195.130.73.229:3306/quiz?useSSL=false&useUnicode=yes&characterEncoding=UTF-8", dbuser = "root", dbpass = "master";
+    String host = "jdbc:mysql://195.130.73.229:3306/quiz?useSSL=false&useUnicode=yes&characterEncoding=UTF-8", dbuser = "xxx", dbpass = "xxx";
     private String name;
     private String lastname;
     private String email;
